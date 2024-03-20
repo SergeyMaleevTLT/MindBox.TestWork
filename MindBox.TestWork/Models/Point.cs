@@ -1,4 +1,6 @@
-﻿namespace MindBox.TestWork.Models;
+﻿using System;
+
+namespace MindBox.TestWork.Models;
 
 /// <summary>
 /// Точка

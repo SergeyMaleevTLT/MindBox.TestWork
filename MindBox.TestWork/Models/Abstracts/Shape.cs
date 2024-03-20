@@ -1,4 +1,7 @@
-﻿namespace MindBox.TestWork.Models.Abstracts;
+﻿using System;
+using System.Linq;
+
+namespace MindBox.TestWork.Models.Abstracts;
 
 public abstract class Shape
 {
