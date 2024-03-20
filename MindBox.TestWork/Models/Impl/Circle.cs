@@ -6,7 +6,7 @@ public class Circle : Shape
 {
     public Circle(Point center, Point circleLine) : base(new[] {center, circleLine}) {}
 
-    internal override double GetSquare()
+    protected override double GetShapeSquare()
     {
         return Math.PI * Math.Pow(GetRadius(), 2);
     }

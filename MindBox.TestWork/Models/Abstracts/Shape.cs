@@ -14,13 +14,18 @@ public abstract class Shape
         Points = points;
     }
 
+    protected abstract double GetShapeSquare();
+
     /// <summary>
     /// Возвращает площадь фигуры
     /// </summary>
     /// <returns></returns>
-    internal abstract double GetSquare();
+    internal double GetSquare()
+    {
+        return GetShapeSquare();
+    }
 
-    private bool IsValid(Point[] points)
+    protected virtual bool IsValid(Point[] points)
     {
         return points is not null && points.Length > 1 && points.Distinct().Count() == points.Length;
     }

@@ -6,7 +6,7 @@ public class Triangle : Shape
 {
     public Triangle(Point first, Point second, Point third) : base(new []{ first, second, third }){}
 
-    internal override double GetSquare()
+    protected override double GetShapeSquare()
     {
         var lines = GetLineLength();
 
