@@ -3,7 +3,7 @@ using MindBox.TestWork.Models;
 using MindBox.TestWork.Models.Impl;
 using Xunit;
 
-namespace MindBox.TestWork.UnitTest;
+namespace MindBox.TestWork.UnitTests;
 
 public class FigureUnitTest
 {

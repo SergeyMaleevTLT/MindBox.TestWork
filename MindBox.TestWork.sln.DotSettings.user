@@ -1,7 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Програмирование\МОИ ПРОЕКТЫ\MindBox.TestWork\MindBox.TestWork.UnitTest\obj\Debug\net6.0\MindBox.TestWork.UnitTest.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4f6bfa3b_002Df1fd_002D4643_002Db9b9_002D69be0ac112d7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="NotValid_Ctr_Circle #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::10338D1B-7A67-435A-9F0A-94B9E407DC4A::net6.0::MindBox.TestWork.UnitTest.FigureUnitTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::97C3FED1-7DEB-40BC-9C4D-688E06CB59FB::net6.0::MindBox.TestWork.UnitTests.FigureUnitTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=53e6104d_002D0743_002D4a13_002Da5ba_002D97ce74f2a853/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="NotValid_Ctr_Circle" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

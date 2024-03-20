@@ -7,44 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e1d0232-e68f-4215-b0c4-5d21f2ceacf6" name="Changes" comment="Добавил консольное, ответил на Вопрос №2">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MindBox.TestWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MindBox.TestWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork.UnitTest/FigureUnitTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MindBox.TestWork.UnitTest/FigureUnitTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork.UnitTest/obj/Debug/net6.0/MindBox.TestWork.UnitTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MindBox.TestWork.UnitTest/obj/Debug/net6.0/MindBox.TestWork.UnitTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork.UnitTest/obj/Debug/net6.0/MindBox.TestWork.UnitTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MindBox.TestWork.UnitTest/obj/Debug/net6.0/MindBox.TestWork.UnitTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork.UnitTest/obj/Debug/net6.0/MindBox.TestWork.UnitTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MindBox.TestWork.UnitTest/obj/Debug/net6.0/MindBox.TestWork.UnitTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork.UnitTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MindBox.TestWork.UnitTest/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MindBox.TestWork.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MindBox.TestWork.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/Figure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MindBox.TestWork/Figure.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/Models/Abstracts/Shape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MindBox.TestWork/Models/Abstracts/Shape.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/Models/Impl/Circle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MindBox.TestWork/Models/Impl/Circle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/Models/Impl/Triangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MindBox.TestWork/Models/Impl/Triangle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/Models/Point.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MindBox.TestWork/Models/Point.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/bin/Debug/net6.0/MindBox.TestWork.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/bin/Debug/net6.0/MindBox.TestWork.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/bin/Debug/net6.0/MindBox.TestWork.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/MindBox.TestWork.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/MindBox.TestWork.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/MindBox.TestWork.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/MindBox.TestWork.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/MindBox.TestWork.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/MindBox.TestWork.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/MindBox.TestWork.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/MindBox.TestWork.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/MindBox.TestWork.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/MindBox.TestWork.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/ref/MindBox.TestWork.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/Debug/net6.0/refint/MindBox.TestWork.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/MindBox.TestWork.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/MindBox.TestWork.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/MindBox.TestWork.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBox.TestWork/obj/rider.project.restore.info" beforeDir="false" />
+    <list default="true" id="1e1d0232-e68f-4215-b0c4-5d21f2ceacf6" name="Changes" comment="настройка gigignore">
+      <change afterPath="$PROJECT_DIR$/MindBox.TestWork.UnitTest/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710939821726</updated>
       <workItem from="1710939861394" duration="12906000" />
-      <workItem from="1710957994244" duration="4808000" />
+      <workItem from="1710957994244" duration="5128000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил консольное, ответил на Вопрос №2">
       <created>1710962027627</created>
@@ -131,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710962027627</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="настройка gigignore">
+      <created>1710963002983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710963002983</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +126,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Добавил консольное, ответил на Вопрос №2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил консольное, ответил на Вопрос №2" />
+    <MESSAGE value="настройка gigignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="настройка gigignore" />
   </component>
 </project>
