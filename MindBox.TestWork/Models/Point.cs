@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MindBox.TestWork.Models;
+﻿namespace MindBox.TestWork.Models;
 
 /// <summary>
 /// Точка
@@ -18,7 +16,7 @@ public struct Point
 
     public override bool Equals(object? obj) => obj is Point point && Equals(point);
 
-    public bool Equals(Point other)
+    private bool Equals(Point other)
     {
         return X == other.X && Y == other.Y;
     }

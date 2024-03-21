@@ -1,8 +1,10 @@
-﻿using System;
-using MindBox.TestWork.Models.Abstracts;
+﻿using MindBox.TestWork.Models.Abstracts;
 
 namespace MindBox.TestWork.Models.Impl;
 
+/// <summary>
+/// Треугольник
+/// </summary>
 public class Triangle : Shape
 {
     public Triangle(Point first, Point second, Point third) : base(new []{ first, second, third }){}
@@ -19,7 +21,7 @@ public class Triangle : Shape
     /// Является прямоугольным
     /// </summary>
     /// <returns></returns>
-    public bool IsStraight()
+    internal bool IsStraight()
     {
         var lines = GetLineLength();
 

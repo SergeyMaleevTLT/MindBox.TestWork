@@ -1,8 +1,10 @@
-﻿using System;
-using MindBox.TestWork.Models.Abstracts;
+﻿using MindBox.TestWork.Models.Abstracts;
 
 namespace MindBox.TestWork.Models.Impl;
 
+/// <summary>
+/// Круг
+/// </summary>
 public class Circle : Shape
 {
     public Circle(Point center, Point circleLine) : base(new[] {center, circleLine}) {}

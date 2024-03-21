@@ -4,7 +4,7 @@ using MindBox.TestWork.Models.Abstracts;
 namespace MindBox.TestWork.Console;
 
 /// <summary>
-/// Пример как легко добавить новую фигуру
+/// Прямоугольник (Пример как легко добавить новую фигуру)
 /// </summary>
 public class Rectangle : Shape
 {
@@ -30,5 +30,11 @@ public class Rectangle : Shape
         var secondLine = base.GetLineLength(Points[1], Points[2]);
 
         return firstLine * secondLine;
+    }
+
+    public override string ToString()
+    {
+        return "Прямоугольник, описанный вершинами в координатах: " +
+               $"x1-{Points[0].X}, y1-{Points[0].Y}/x2-{Points[1].X}, y2-{Points[1].Y}/x3-{Points[2].X}, y3-{Points[2].Y}/x4-{Points[1].Y}, y4-{Points[1].X}";
     }
 }

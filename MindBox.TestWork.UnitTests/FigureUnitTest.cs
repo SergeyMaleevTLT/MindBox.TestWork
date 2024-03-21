@@ -1,4 +1,3 @@
-using System;
 using MindBox.TestWork.Models;
 using MindBox.TestWork.Models.Impl;
 using Xunit;
@@ -14,7 +13,8 @@ public class FigureUnitTest
         var circle = new Circle(new Point(0, 0), new Point(5, 0));
 
         //Act
-        var square = Figure.GetSquare(circle);
+        var figure = new Figure(circle);
+        var square = figure.GetSquare();
 
         //Assert
         Assert.Equal(79,Math.Round(square));
@@ -27,7 +27,8 @@ public class FigureUnitTest
         var triangle = new Triangle(new Point(0, 0), new Point(10, 0), new Point(10, 10));
 
         //Act
-        var square = Figure.GetSquare(triangle);
+        var figure = new Figure(triangle);
+        var square = figure.GetSquare();
 
         //Assert
         Assert.Equal(50,Math.Round(square));
@@ -80,7 +81,8 @@ public class FigureUnitTest
         var triangle = new Triangle(new Point(0, 0), new Point(10, 0), new Point(10, 10));
 
         //Act
-        var isStraight = triangle.IsStraight();
+        var figure = new Figure(triangle);
+        var isStraight = figure.IsStraightTriangle();
 
         //Assert
         Assert.True(isStraight);
@@ -93,7 +95,8 @@ public class FigureUnitTest
         var triangle = new Triangle(new Point(0, 0), new Point(10, 4), new Point(10, 14));
 
         //Act
-        var isStraight = triangle.IsStraight();
+        var figure = new Figure(triangle);
+        var isStraight = figure.IsStraightTriangle();
 
         //Assert
         Assert.False(isStraight);
